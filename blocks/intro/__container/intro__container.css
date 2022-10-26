@@ -1,0 +1,11 @@
+.intro__container{
+   max-width: 984px;
+      margin: 0 auto;
+     
+}
+
+@media screen and (max-width:1023px) {
+   .intro__container {
+      margin-left:0;
+   }
+}
