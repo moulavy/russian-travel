@@ -3,6 +3,7 @@
    margin:0;
 }
 
-.place__paragraph:first-child{
-   margin-bottom:26px ;
+.place__paragraph:nth-child(even){
+   margin-top:26px ;
 }
+
