@@ -4,8 +4,16 @@
    line-height: 28px;
    text-decoration: none;
    margin:50% 0;
-   padding:0;  
-}
+   padding:0; 
+   opacity: 1;
+   transition: opacity 0.3s linear;
+   cursor: pointer;
+   }
+   
+   .header__lang-link:hover {
+      opacity: 0.5;
+   }
+
 
 @media screen and (max-width:767px) {
    .header__lang-link {
