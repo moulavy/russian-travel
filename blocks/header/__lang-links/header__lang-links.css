@@ -1,12 +1,7 @@
-.header__lang-links{
-   display: grid;
-   grid-auto-flow:column;
-   grid-column-gap:18px;
-   height: 28px;
-}
-
-@media screen and (max-width:767px) {
-   .header__lang-links {      
-      height: 20px;
-   }
+.header__lang-links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 18px;
+  align-self: center;
+  padding-top: 15px;
 }

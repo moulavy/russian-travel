@@ -1,23 +1,21 @@
-.place__text{
-   max-width: 484px;
-   grid-area: text;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 29px;
-   
+.place__text {
+  max-width: 484px;
+  grid-area: text;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
 }
 
-@media screen and (max-width:1023px) {
-   .place__text {
-      font-size: 16px;
-      line-height: 26px;
-   }
+@media screen and (max-width: 1023px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
-@media screen and (max-width:768px) {
-   .place__text {
-      margin-left: 16px;
-      margin-right: 16px;
-   }
+@media screen and (max-width: 767px) {
+  .place__text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
-
